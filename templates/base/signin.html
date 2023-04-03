@@ -1,0 +1,21 @@
+<html>
+<head>
+<link rel ="stylesheet", href="">
+</head>
+<body>
+<h3>SignUp</h3>
+
+<form action ="/signin" method="post">
+    {% csrf_token %}
+    <label for ="">Username</label>
+    <input type="text" id="username" name="username" placeholder="enter a username">
+    <br>
+    <label for ="">Password</label>
+    <input type="text" id="pass1" name="pass1" placeholder="Enter ur pass1">
+    <br>
+    <button type="submit">SignIn</button>
+
+</form>
+
+</body>
+</html>
